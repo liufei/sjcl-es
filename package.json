@@ -1,19 +1,24 @@
 {
-  "name": "sjcl",
-  "version": "1.0.8",
-  "description": "Stanford Javascript Crypto Library",
-  "main": "sjcl.js",
+  "name": "sjcl-es",
+  "version": "2.0.0",
+  "description": "Tiny 2.72kB AES-GCM library",
+  "type": "module",
+  "module": "./sjcl.js",
+  "exports": "./sjcl.js",
   "author": "bitwiseshiftleft",
   "license": "(BSD-2-Clause OR GPL-2.0-only)",
-  "homepage": "https://github.com/bitwiseshiftleft/sjcl",
+  "homepage": "https://github.com/liufei/sjcl-es",
   "keywords": [
     "encryption",
     "high-level",
-    "crypto"
+    "crypto",
+    "tiny",
+    "aes",
+    "gcm"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitwiseshiftleft/sjcl.git"
+    "url": "https://github.com/liufei/sjcl-es.git"
   },
   "scripts": {
     "test": "make test",
@@ -24,7 +29,7 @@
     "crypto": false
   },
   "engines": {
-    "node": "*"
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   },
   "devDependencies": {
     "eslint": "^2.11.1",

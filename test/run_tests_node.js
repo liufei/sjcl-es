@@ -1,5 +1,5 @@
-var fs = require('fs');
-var vm = require('vm');
+import fs from 'fs';
+import vm from 'vm';
 
 var load = function(path) {
   try {
